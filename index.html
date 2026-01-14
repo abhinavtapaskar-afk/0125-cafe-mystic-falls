@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>0125 Cafe Mystic Falls | Nanded</title>
+
+    <meta name="description" content="0125 Cafe Mystic Falls – Best cafe in Nanded for pizza, Chinese, coffee & celebrations. Huge space, affordable prices." />
+    <meta name="keywords" content="0125 Cafe, Mystic Falls, Cafe in Nanded, Pizza, Chinese Food, Coffee Shop Nanded" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="menuData.js"></script>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <h1 class="logo">0125 CAFE MYSTIC FALLS</h1>
+    <p class="hindi-name">०१२५ कैफे मिस्टिक फॉल्स</p>
+    <p class="tagline">Huge Space • Affordable Taste • Nanded's Favorite</p>
+    <div class="delivery-badge">🛵 Free Delivery within 2km</div>
+    <div class="rating-badge">⭐ 4.0 Rating • 183+ Reviews</div>
+</header>
+
+<section class="categories">
+    <div id="categoryContainer"></div>
+</section>
+
+<section class="menu">
+    <div id="menuContainer"></div>
+</section>
+
+<section class="cart">
+    <h2>Your Order</h2>
+    <div id="cartItems"></div>
+    <div class="cart-footer">
+        <span>Total:</span>
+        <strong id="totalPrice">₹0</strong>
+    </div>
+    <button class="order-btn" onclick="sendWhatsAppOrder()">Order on WhatsApp</button>
+    <p class="cart-note">📍 Share location on WhatsApp after ordering</p>
+</section>
+
+<section class="booking">
+    <h2>VIP Suite Booking 🎉</h2>
+    <p class="booking-desc">
+        Perfect for Birthdays, Anniversaries & Friends Gatherings
+        <br/>Huge space with great ambience
+    </p>
+
+    <div class="booking-cards">
+        <div class="booking-card">🎂 Birthday Party</div>
+        <div class="booking-card">💍 Anniversary</div>
+        <div class="booking-card">👥 Friends Meet</div>
+        <div class="booking-card">🎊 Kitty Party</div>
+    </div>
+
+    <button class="booking-btn" onclick="sendBookingRequest()">
+        Enquire for VIP Suite
+    </button>
+</section>
+
+<section id="about" class="about-section">
+    <div class="about-container">
+        <span class="sub-title">Our Story</span>
+        <h2 class="about-title">Where Stories Unfold Over Great Food</h2>
+        
+        <div class="about-content">
+            <p>At <strong>0125 Cafe Mystic Falls</strong>, we believe every meal is a story waiting to be told. Nestled in the heart of Nanded, our cafe has been a beloved destination for food lovers, students, and families for years.</p>
+            
+            <p style="margin-top: 15px;">What sets us apart? Our <strong>huge, spacious interiors</strong> that never feel crowded, combined with an extensive menu that spans from authentic Chinese delicacies to handcrafted pizzas and refreshing mocktails. Whether you're craving our signature <strong>Tandoori Paneer Pizza</strong> or our legendary <strong>Brownie Shake</strong>, every dish is crafted with care and served with a smile.</p>
+            
+            <p style="margin-top: 15px;">From college students celebrating milestones to families enjoying quality time together, we've hosted countless memories within our walls. Our VIP suite offers the perfect setting for your special celebrations, while our affordable pricing ensures everyone can enjoy premium taste without breaking the bank.</p>
+        </div>
+        
+        <p class="highlight-quote">
+            Great food, warm ambience, and memories that last forever. <br>
+            <span>Welcome to the 0125 Cafe Mystic Falls family.</span>
+        </p>
+    </div>
+</section>
+
+<section class="reviews">
+    <span class="sub-title">What Our Customers Say</span>
+    <h2>Loved by Nanded ❤️</h2>
+
+    <div class="reviews-grid">
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"This cafe is too good! It's not too much crowdy like other ones because it has huge space inside. Food is also good and yummy with affordable prices. Great for spending quality time with friends and family!"</p>
+            <small>— Pihu Chavan</small>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"If you love hopping cafes, then this cafe is definitely for you. Go and grab your desire! The variety and taste are unmatched."</p>
+            <small>— Suhas Suryawanshi</small>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Best pizza and burgers in the town. Food is super delicious and their food presentation is incredible. Can't beat the cafe burger & pizza in taste. Please must try any pizza from cafe."</p>
+            <small>— Suresh Kagne</small>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Food taste is so good, atmosphere and overall cafe is good. The ambience is perfect for hangouts. Go for it!"</p>
+            <small>— Rohan Kashetwar</small>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Tandoori paneer pizza and brownie shake is just too yum. Should try it! Taste is just another level. Absolutely loved it!"</p>
+            <small>— Sidra Khan</small>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"One of the best cafe in Nanded. Food is awesome, nice atmosphere, friendly and good service. Highly recommended!"</p>
+            <small>— Kamlesh Lohokare</small>
+        </div>
+    </div>
+</section>
+
+<section class="visit">
+    <h2>Visit Us 📍</h2>
+    <p>Below Marchant's Co-operative Bank Ltd</p>
+    <p>Vasant Nagar, Hyder Bagh, Nanded-431602</p>
+    <p class="status-text">Open Daily • Closes 10:00 PM</p>
+
+    <div class="visit-buttons">
+        <a href="tel:09822780125" class="call-btn">Call Now</a>
+        <a href="https://maps.google.com/?q=58C8+VH+Nanded,+Maharashtra" target="_blank" class="map-btn">Open in Maps</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 0125 CAFE MYSTIC FALLS. ALL RIGHTS RESERVED.</p>
+    <p class="footer-sub">DEVELOPED IN NANDED | SECURE WHATSAPP ORDERING</p>
+</footer>
+
+</body>
+</html>
