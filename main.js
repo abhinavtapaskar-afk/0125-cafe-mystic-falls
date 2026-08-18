@@ -122,11 +122,11 @@ function sendWhatsAppOrder() {
 
     message += `%0A%0A💬 Please confirm my order!`;
 
-    window.open(`https://wa.me/919822780125?text=${message}`, "_blank");
+    window.open(`https://wa.me/919527142284?text=${message}`, "_blank");
 }
 
 function sendBookingRequest() {
-    const phoneNumber = "919822780125"; 
+    const phoneNumber = "919527142284"; 
     
     let bookingMessage = `✨ *VIP SUITE INQUIRY - 0125 CAFE MYSTIC FALLS* ✨%0A%0A`;
     bookingMessage += `I want to check availability for a special celebration!%0A%0A`;
